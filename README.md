@@ -23,7 +23,7 @@ This is a solution to the [Huddle landing page with a single introductory sectio
 ### Links
 
 - Solution URL: [https://github.com/Yakkarizma/huddle-landing-page]
-- Live Site URL: [https://yakkarizma.github.io/results-summary-component/]
+- Live Site URL: [https://yakkarizma.github.io/huddle-landing-page/]
 
 ## My process
 

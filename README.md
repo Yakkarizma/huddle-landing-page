@@ -32,6 +32,7 @@ This is a solution to the [Huddle landing page with a single introductory sectio
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Mobile First
 
 ### Useful resources
 

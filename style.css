@@ -36,6 +36,7 @@ h1,h2{
     background-image: url(img/bg-desktop.svg);
     background-repeat: no-repeat;
     background-size:cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,7 +72,7 @@ h1,h2{
     color: var(--Grey);
 }
 
-.btn{
+.register{
     font-family: "Poppins", sans-serif;
     background-color: white;
     padding: 15px 60px;
@@ -83,7 +84,7 @@ h1,h2{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-.btn:hover{
+.register:hover{
     background-color: var(--Magenta-400);
     color: white;
     transition: 0.4s;
@@ -111,4 +112,43 @@ h1,h2{
     border: 2px solid var(--Magenta-400);
     transition: 0.4s;
     color: var(--Magenta-400);
+}
+
+@media(max-width:1000px){
+    .container{
+        width: 100vw;
+        height: auto;
+        padding: 40px;
+        background-image: url(img/bg-mobile.svg);
+    }
+    .icerik{
+        width: 100%;
+    }
+    .sutun-1 img{
+        width: 550px;
+        height: auto;
+    }
+    .satir{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .baslik,.yazi{
+        text-align: center;
+    }
+    .yazi{
+        font-size: 22px;
+        line-height: 2.2rem;
+    }
+    .btn{
+        text-align: center;
+    }
+    .register{
+        padding: 15px 120px;
+    }
+    .social-row{
+        float: none;
+        text-align: center;
+    }
 }
